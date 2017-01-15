@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sync"
+        android:title="@string/sync"
+        app:actionLayout="@layout/toolbar_action_sync"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:title="@string/history"
+        app:showAsAction="ifRoom" />
+
+</menu>
